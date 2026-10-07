@@ -4,7 +4,7 @@ An advanced, multi-platform biomechanical fitness tracking and activity intellig
 
 This repository contains two distinct implementations:
 1. **MATLAB Version** (`/matlab`): High-precision desktop scientific app communicating with smartphone sensors via **MATLAB Mobile** (`mobiledev`).
-2. **Web Version** (`/web`): 100% client-side, zero-dependency browser testing application deployable directly on **GitHub Pages**, utilizing HTML5 `DeviceMotionEvent` smartphone APIs.
+2. **Web Version** (`/docs`): 100% client-side, zero-dependency browser testing application deployable directly on **GitHub Pages**, utilizing HTML5 `DeviceMotionEvent` smartphone APIs.
 
 ---
 
@@ -16,7 +16,7 @@ Avengers-Fitness-Tracker/
 ├── matlab/
 │   └── AvengersFitnessTrackerByYug.m
 │
-├── web/
+├── docs/
 │   ├── index.html
 │   ├── style.css
 │   ├── app.js
@@ -30,7 +30,7 @@ Avengers-Fitness-Tracker/
 
 ## ⚡ Architecture Overview
 
-| Feature | MATLAB Application (`/matlab`) | Web Testing Application (`/web`) |
+| Feature | MATLAB Application (`/matlab`) | Web Testing Application (`/docs`) |
 | :--- | :--- | :--- |
 | **Runtime** | MATLAB R2018b+ Desktop | Modern Web Browser (iOS / Android / Desktop) |
 | **Sensor Link** | `mobiledev` (MATLAB Mobile App) | HTML5 `DeviceMotionEvent` API |
