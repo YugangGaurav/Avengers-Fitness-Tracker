@@ -87,7 +87,7 @@ The web version is designed specifically for immediate hosting on **GitHub Pages
 5. Under **Build and deployment**:
    - **Source**: `Deploy from a branch`
    - **Branch**: `main`
-   - **Folder**: `/web`
+   - **Folder**: `/docs`
 6. Click **Save**.
 7. In 1–2 minutes, your website will be live at:
    ```
